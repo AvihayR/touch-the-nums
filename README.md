@@ -1,1 +1,3 @@
-"# touch-the-nums" 
+#Touch the nums Game
+-CodingAcademy - Week 2
+
