@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch the nums</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="onInit()">
+
+    <div class="board">
+        <div class="board-header">
+
+            <div class="curr-num-container">
+                <!-- <h3>Current number:</h3>
+                <p class="curr-num">0</p> -->
+            </div>
+
+            <div class="controls">
+                <h3>Board Size:</h3>
+                <label for="4">4x4</label>
+                <input type="radio" name="board-size" id="4" onclick="onChangeBoardSize(this)">
+                <label for="6">5x5</label>
+                <input type="radio" name="board-size" id="5" onclick="onChangeBoardSize(this)">
+                <label for="8">6x6</label>
+                <input type="radio" name="board-size" id="6" onclick="onChangeBoardSize(this)">
+            </div>
+            <div class="timer">
+                <h3>Timer:</h3>
+                <p class="timer">0.000</p>
+            </div>
+        </div>
+
+        <table>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

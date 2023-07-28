@@ -1,0 +1,75 @@
+:root {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table {
+    margin: 10px auto;
+    padding: 8px;
+    border: 2px solid rgb(113, 218, 116);
+    border-radius: 15px;
+    background-color: rgb(207, 255, 196);
+}
+
+td {
+    width: 55px;
+    height: 55px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+td,
+button.reset {
+    background-color: rgb(92, 165, 225);
+    border: 2px solid rgb(23, 94, 208);
+    color: white;
+}
+
+td:hover,
+td.active,
+button.reset:hover {
+    background-color: rgb(23, 94, 208);
+}
+
+.board {
+    margin: 125px auto;
+    width: 900px;
+    padding: 35px 0 35px 0;
+    border: 2px dashed rgb(170, 170, 170);
+    border-radius: 15px;
+    background-color: rgb(223, 223, 223);
+}
+
+.board-header {
+    text-align: center;
+}
+
+div.controls {
+    margin-top: 25px;
+    display: inline-block;
+}
+
+div.timer {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+
+button.reset {
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.curr-num-container,
+p.curr-num,
+p.timer,
+h3,
+label {
+    font-size: 25px;
+    margin: 0;
+    color: rgb(32, 86, 212);
+}
